@@ -1,0 +1,45 @@
+body {
+	padding-top: 54px;
+}
+
+@media ( min-width : 992px) {
+	body {
+		padding-top: 56px;
+	}
+}
+
+#login {
+	color: #80969f;
+	margin-top: 7px;
+	margin-left: 5px;
+	cursor: pointer
+}
+
+.bgimg-1 {
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+}
+
+#brochures-image a {
+	margin-bottom: -6px;
+	margin-top: 16px;
+	opacity: 0.8;
+	cursor: pointer
+}
+
+#brochures-image a:hover {
+	opacity: 1
+}
+
+#buttom-up {
+	display: inline;
+	float: right;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+#error {
+	color: red;
+}
